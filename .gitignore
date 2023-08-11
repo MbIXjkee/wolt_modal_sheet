@@ -38,6 +38,9 @@ example/.fvm/
 .pub/
 /build/
 build/
+# since these are libraries
+/pubspec.lock
+/demo_ui_components/pubspec.lock
 
 # Symbolication related
 app.*.symbols
