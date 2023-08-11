@@ -41,7 +41,7 @@ class SheetPageWithLazyList {
             }
             return ColorTile(color: colors[index]);
           },
-          childCount: colors.length + 1,
+          childCount: colors.length,
         ),
       ),
     );
